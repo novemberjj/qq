@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+    font-family: ;
+}
+body{
+    margin: 0;
+    min-width: 900px;
+   
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    list-style: none;
+}
+.navbar{
+   
+    height: 60px;
+    padding: 10px 30px;
+    background-color: white;
+    /* border: 1px solid black; */
+}
+.navbar>a{
+    /* 로고 글자 모양 */
+    float: left;
+    height: 60px;
+    line-height: 60px;
+    vertical-align: middle;
+    font-weight: 700;
+}
+.navbar>ul{
+    float: right;
+}
+.navbar>ul>li{
+    display: inline;
+    margin-left: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+}
+.navbar>ul>li>a{
+    /* 글자모양 */
+    font-size: 13px;
+}
+.header{
+    /* main-image */
+    width: 100%;
+    height: 600px;
+    background-image: url(/image/main.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin: 20px 0;
+    /* 마진 위 아래 */
+}
+h1{
+    /* 중간 제목 */
+    margin: 60px 0;
+    font-size: 25px;
+    text-align: center;
+    color:darkgray;
+}
+.products{
+    /* 그림 사이즈 225 마진 20 */
+    width: 715px;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.products>a{
+    display: block;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 200px;
+    
+
+}
+.products>a:nth-child(3n){
+    margin-right: 0px;
+}
+.products>a img{
+    /* 자손이라는 뜻 */
+    width: 225px;
+    height: 225px;
+}
+.products ul{
+padding: 0;
+text-align: center;
+margin: 20px auto 0;
+}
+.products ul li{
+font-size: 16px;
+margin: 10px ;
+}
+.icon{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 20px;
+    color: gray;
+}
+.footer{
+    clear: both;
+    text-align: center;
+}
+.footer>.box{
+    margin-bottom: 100px;
+    width: 100%;
+    background-color:rgb(236, 190, 197);
+    
+    height: 250px;
+    text-align: center;
+    padding-top: 15px;
+    
+}
+.footer>.box>p:nth-of-type(1){
+    font-size: 25px;
+}
+.footer>.box>a{
+    display: inline-block;
+    margin-top: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    width: 200px;
+}
+.footer>.help{
+    display: inline-block;
+    width: 200x;
+    height: 100px;
+   padding-right: 30px;
+   padding-left: 30px;
+    border-right: 1px dotted gray;
+
+}
+.footer>.help:nth-child(5){
+    border: none;
+}
+.footer>.help>div:nth-of-type(1){
+    float: left;
+    margin-top: 15px;
+   margin-right: 20px;
+}
+.footer>.help>div:nth-of-type(2){
+    float: right;
+    line-height: 30px;
+}

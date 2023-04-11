@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>배달의 민족</title>
+    <style>
+        @font-face {
+            font-family: nm;
+            src: url(/font/Nanum_Myeongjo/NanumMyeongjo-Regular.ttf);
+        }
+        body{
+            font-family: nm;
+            background-color:rgb(68, 206, 199);
+            color: black;
+        }
+        .header{
+        margin: 50px;
+        }
+        .header>h1{
+            font-size: 60px;
+        }
+        .header>h3{
+            font-size: 35px;
+        }
+        .menu{
+            width: 600px;
+            background-color: white;
+            margin: auto;
+            /* block 태그들은 margin: auto 설정하면 가운데로 옴 */
+            border-radius: 10px;
+            margin-bottom: 50px;
+        }
+        #sushi{
+            width: 600px;
+            height: 400px;
+            background-size: 600px 400px;
+            border-radius: 10px 10px 0 0;
+            background-image: url(/image/초밥.jpg);
+           
+        }
+        #hambuger{
+            width: 600px;
+            height: 400px;
+            background-size: 600px 400px;
+            border-radius: 10px 10px 0 0;
+            background-image: url(/image/ham.jpg);
+           
+        }
+        #chiken{
+            width: 600px;
+            height: 400px;
+            background-size:600px 400px;
+            border-radius: 10px 10px 0 0;
+            background-image: url(/image/치킨.jpg);
+           
+        }
+        #pizza{
+            width: 600px;
+            height: 400px;
+            background-size: 600px 400px;
+            border-radius: 10px 10px 0 0;
+            background-image: url(/image/피자.png);
+           
+        }
+        /* .menu>div:first-child{
+            width: 300px;
+            height: 200px;
+            background-size: 300px 200px;
+            border-radius: 10px 10px 0 0;
+        } */
+        /* 공통속성을 빼면 나중에 그림만 추가하면 됨 */
+        .menu>div>h2{
+            margin: 10px;
+        }
+        .menu>div:last-child{
+            padding: 20px;
+        }
+        div{
+            text-align: center;
+        }
+        .menu>div>p:last-child{
+            color: blue;
+            font-weight: 700;
+        }
+        .menu>div>p{
+            letter-spacing: 1px;
+            line-height: 25px;
+        }
+    </style>
+</head>
+<body>
+   <div class="header">
+    <h1>배달의 민족</h1>
+    <h3>넌 배달할 때가 제일 멋있어</h3>
+   </div>
+   <div class="menu">
+    <div id="hambuger"></div>
+    <!-- id => js랑 연결할때 많이 사용 -->
+    <div>
+        <h2>수제버거 세트</h2>
+        <p>주머니가 가벼운<br> 당신의 마음까지 생각한<br> 착한 가격!</p>
+        <p><del>25,000원</del> 15,000원</p>
+        <p>바로결제</p>
+    </div>
+   </div>
+   <div class="menu">
+    <div id="chiken"></div>
+    <!-- id => js랑 연결할때 많이 사용 -->
+    <div>
+        <h2>허니콤보</h2>
+        <p>주머니가 가벼운<br> 당신의 마음까지 생각한<br> 착한 가격!</p>
+        <p><del>25,000원</del> 15,000원</p>
+        <p>바로결제</p>
+    </div>
+   </div>
+   <div class="menu">
+    <div id="pizza"></div>
+    <!-- id => js랑 연결할때 많이 사용 -->
+    <div>
+        <h2>PIZZA</h2>
+        <p>주머니가 가벼운<br> 당신의 마음까지 생각한<br> 착한 가격!</p>
+        <p><del>25,000원</del> 15,000원</p>
+        <p>바로결제</p>
+    </div>
+   </div>
+   <div class="menu">
+    <div id="sushi"></div>
+    <!-- id => js랑 연결할때 많이 사용 -->
+    <div>
+        <h2>맛있는 초밥</h2>
+        <p>주머니가 가벼운<br> 당신의 마음까지 생각한<br> 착한 가격!</p>
+        <p><del>25,000원</del> 15,000원</p>
+        <p>바로결제</p>
+    </div>
+   </div>
+</body>
+</html>

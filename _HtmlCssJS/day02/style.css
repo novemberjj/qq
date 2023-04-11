@@ -1,0 +1,46 @@
+body{
+    text-align: center;
+}
+#input1{
+    font-size: 50px;
+    width: 300px;
+    height: 100px;
+}
+
+h1{
+    border: 1px solid;
+    border-color: black;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 30px auto;
+    width: 10%;
+    /* margin: 10px; => 상하좌우 전체 10px */
+    /* margin: 30px auto; => 상하 좌우 */
+    /* margin: [margin-top] [margin-right] [margin-bottom] [margin-left]; => 기본 순서 */
+    /* margin: 1 2 3 4; => 상:1 우:2 하:3 좌:4만큼 띄어라 */
+    /* margin: top (left=right) bottom; => 세 개만 나올때 위아래 별도인데 옆에는 같다 */
+    /* padding도 마찬가지 */
+    
+    
+}
+ul{
+    list-style: none;
+    width: 30%;
+    margin: 10px auto;
+    
+}
+li{
+    display: inline;
+    margin: 0px 10px;
+}
+li>a{
+    text-decoration: none;
+}
+img{
+    width: 500px;
+    margin: 30px auto;
+}
+.curr_view{
+    /* 굵게 줄 대상한테만 클래스 만들어줌 */
+    font-weight: 700;
+}

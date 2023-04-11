@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            /* 전체 마진 빼기  */
+        }
+        @keyframes bounce{
+            body{
+                position: relative;
+            }
+            0%{
+             top: 100%;
+            }
+            100%{
+              top: 90%;
+            }
+
+        }
+        .b{
+            position:absolute;
+            width: 50px;
+            height: 50px;
+            background-color: grey;
+            border-radius: 50px;
+            animation-name: bounce;
+            animation-duration: 0.4s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease;  /* 진행속도 */
+        }
+    </style>
+</head>
+<body>
+    <div class="b"></div>
+</body>
+</html>
